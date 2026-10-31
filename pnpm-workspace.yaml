@@ -1,0 +1,9 @@
+pmOnFail: ignore
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
+
+allowBuilds:
+  '@firebase/util': true
+  protobufjs: true
